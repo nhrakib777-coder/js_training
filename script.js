@@ -658,3 +658,98 @@ if (haveFood) {
     console.log('fasting');
   }
 }
+//5
+const invitedGuest = 10;
+const bringGift = true;
+if (invitedGuest >= 100) {
+  if (bringGift) {
+    console.log("let's Party all night.");
+  } else {
+    console.log('I will party with myself.');
+  }
+} else {
+  console.log('NO party.');
+}
+//with && oparetors and else if
+
+if (invitedGuest >= 100 && bringGift) {
+  console.log('lets party all night');
+} else {
+  console.log('I will party with myself');
+}
+//weather app
+
+const isRaining = false;
+const hasUmbrella = false;
+
+if (isRaining && hasUmbrella) {
+  console.log('I can go for a walk');
+} else if (isRaining && !hasUmbrella) {
+  console.log('I will stay home.');
+} else {
+  console.log('It is a beautiful Day.');
+}
+//End of practicimg
+//Logical not (!) physically hot
+
+const isLeader = true;
+if (isLeader === true) {
+  console.log('gvnt money is mine.');
+}
+// shortcut
+if (isLeader) {
+  console.log('gvmnt er taka amr');
+}
+
+const isPassed = true;
+if (isPassed == false) {
+  console.log('ajk mair khabo.');
+}
+if (!isPassed) {
+  console.log('ami mair khamu');
+}
+
+//ternary operator
+
+let productPrice = 500;
+let isBoroVai = true;
+if (isBoroVai) {
+  console.log((productPrice = 0));
+} else {
+  console.log((productPrice = productPrice + 100));
+}
+
+productPrice = isLeader ? console.log(0) : console.log(productPrice + 100);
+//JavaScript LOgical Not Operator Practice:
+//1
+const cashBack = 3000;
+
+cashBack >= 3000 ? console.log(cashBack - 500) : console.log(cashBack - 0);
+//another way
+const finalAmount = cashBack >= 3000 ? cashBack - 500 : cashBack;
+console.log(finalAmount);
+//2
+const myAge = 12;
+myAge >= 15 ? console.log('teenager') : console.log('child');
+//3
+const isLoggedIn = false;
+const message = isLoggedIn ? 'welcome back' : 'please login';
+console.log(message);
+//4
+const isTank = true;
+const warning = isTank ? 'Ready for a long drive' : 'fill the tank';
+console.log(warning);
+// with logical not(!)
+const isTank1 = true;
+const warning1 = !isTank ? 'lets drive' : 'empty';
+console.log(warning1);
+//6
+const sunny = false;
+const decision = !sunny ? 'stay home' : 'go out side';
+console.log(decision);
+//7
+const expensive = false;
+const decision1 = !expensive ? 'I will buy' : 'I do not buy';
+console.log(decision1);
+//javascript condition End
+//JavaScript Array
