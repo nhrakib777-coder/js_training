@@ -559,4 +559,18 @@ if (result <= 100) {
   console.log('invalid result.');
 }
 //End of Practice
-//
+//Nested if statement
+
+const money = 200;
+const popcornPrice = 60;
+if (money >= 300) {
+  console.log('going to watch a movie');
+
+  if (popcornPrice <= 50) {
+    console.log('buying a popcorn');
+  } else {
+    console.log('popcorn is expensive');
+  }
+} else {
+  console.log('home alone');
+}
