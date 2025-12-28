@@ -574,3 +574,87 @@ if (money >= 300) {
 } else {
   console.log('home alone');
 }
+//practice
+//1
+const haveMoney = 100;
+const isInvited = false;
+if (isInvited == true) {
+  console.log("I'll go to the party.");
+  if (haveMoney >= 1000) {
+    console.log("I'll buy a gift.");
+  } else {
+    console.log("I'll not buy any gift");
+  }
+} else {
+  console.log("I'll not go to the party.");
+}
+//2
+
+const wantTea = true;
+const wantBiscuit = true;
+/*
+if (wantTea) {
+  if (wantBiscuit) {
+    console.log('your tea and your biscuit.');
+  } else {
+    console.log('you tea, but not biscuit.');
+  }
+} else {
+  console.log('enjoy movie');
+}
+  */
+// same logic with operators and else if
+if (wantTea && wantBiscuit) {
+  console.log('your tea and biscuit.');
+} else if (wantTea) {
+  console.log('your tea.');
+} else {
+  console.log('enjoy movie');
+}
+//3
+const userAcc = 'Active';
+const subscription = 'Premium';
+
+if (userAcc === 'Active') {
+  if (subscription === 'Premium') {
+    console.log('your premium features.');
+  } else {
+    console.log('you are using free version');
+  }
+} else {
+  console.log('your account is not active');
+}
+// with && operators, boolean and else if
+
+const useraccount = false;
+const subscribe = false;
+
+if (useraccount && subscribe) {
+  console.log('enjoy premium.');
+} else if (useraccount) {
+  console.log('your free version');
+} else {
+  console.log('not active.');
+}
+//4
+const haveFood = false;
+const isAppWorking = true;
+
+if (haveFood === true) {
+  console.log('make it hot');
+} else if (isAppWorking === true) {
+  console.log('Order food.');
+} else {
+  console.log('I am fasting.');
+}
+
+//with nested if condition
+if (haveFood) {
+  console.log('hot food');
+} else {
+  if (isAppWorking) {
+    console.log('coming food');
+  } else {
+    console.log('fasting');
+  }
+}
