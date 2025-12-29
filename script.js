@@ -759,6 +759,7 @@ console.log(decision1);
 //JavaScript Array
 //practice Array
 //1
+/*
 const numbers = [71, 72, 73, 74, 74, 75, 76, 77, 78, 79];
 console.log(numbers);
 //2
@@ -897,6 +898,7 @@ console.log(index);
   the differents between includes and indexOf is 'When you need to just yes/no answer you should use includes' & 'When you need to know the position of an item you should use indexOf' from array.
 */
 //2
+/*
 const fruitList = ['apple', 'mango', 'banana', 'lichi'];
 if (fruitList.includes('mango')) {
   console.log('I have Mango.');
@@ -919,5 +921,5 @@ if (weather.includes('rain')) {
   console.log('I need umbrella');
 } else {
   console.log('no rain no pain');
-}
+}*/
 // End of Array
