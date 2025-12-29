@@ -923,3 +923,4 @@ if (weather.includes('rain')) {
   console.log('no rain no pain');
 }*/
 // End of Array
+//JavaScript Loop
