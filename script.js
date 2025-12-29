@@ -829,3 +829,95 @@ console.log(games);
 //5
 const family = ['ammu', 'abbu', 'happy', 'hafija', 'opi', 'rakib'];
 console.log(family[3]);
+
+// array push pop
+const num2 = [12, 34, 23, 56, 53];
+console.log(num2);
+num2.push(66);
+console.log(num2);
+num2.push(98, 354, 43, 2334);
+console.log(num2);
+const frndsName = ['fahim', 'tanvir', 'korim'];
+console.log(frndsName);
+frndsName.push('rohim', 'billal');
+console.log(frndsName);
+//pop
+const frndsPop = ['rohim', 'rakib', 'mehedi', 'hasan'];
+console.log(frndsPop);
+frndsPop.pop();
+const pop1 = frndsPop.pop();
+
+console.log(pop1);
+console.log(frndsPop);
+//shift unshift
+const classMate = ['rohim', 'korim', 'balam'];
+console.log(classMate);
+classMate.shift();
+console.log(classMate);
+classMate.unshift('head sir');
+console.log(classMate);
+//practice push pop shift unshift
+//1
+const numPrac = [10, 20, 30, 40, 50];
+numPrac.push(60);
+console.log(numPrac);
+//2
+const frndList = ['sojib', 'sagor', 'sakib', 'sohel'];
+frndList.push('sumon');
+console.log(frndList);
+//3
+const gameList = ['coc', 'free fire', 'pubg', 'cricket'];
+gameList.pop();
+console.log(gameList);
+//4
+const numList = [24, 36, 48, 60];
+numList.unshift(12);
+console.log(numList);
+//5
+const bookList = ['bangla', 'english', 'math'];
+bookList.shift();
+console.log(bookList);
+//push pop shift unshift practice end
+//array: include
+const friends = ['selam', 'gelam', 'balam'];
+const exist = friends.includes('gelam');
+console.log(exist);
+
+if (friends.includes('balam')) {
+  console.log('party');
+} else {
+  console.log('no party');
+}
+//indexof
+const index = friends.indexOf('jelam');
+console.log(index);
+//practicing of includes and indexOf
+//1
+/*
+  the differents between includes and indexOf is 'When you need to just yes/no answer you should use includes' & 'When you need to know the position of an item you should use indexOf' from array.
+*/
+//2
+const fruitList = ['apple', 'mango', 'banana', 'lichi'];
+if (fruitList.includes('mango')) {
+  console.log('I have Mango.');
+} else {
+  console.log('I do not have Mango');
+}
+
+//3
+const nameList = ['abul', 'kabul', 'tabul', 'bobul', 'babul'];
+const indexNo = nameList.indexOf('babul');
+console.log(indexNo);
+//5
+const city = ['dhaka', 'ctg', 'sylhet'];
+city.push('rajshahi');
+const search = city.includes('RajShahi');
+console.log(search);
+//6
+const weather = ['sunny', 'rain', 'snow', 'forcast'];
+if (weather.includes('rain')) {
+  console.log('I need umbrella');
+} else {
+  console.log('no rain no pain');
+}
+// End of Array
