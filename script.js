@@ -507,6 +507,7 @@ if (price2 >= 5000) {
 } else {
   console.log(price2);
 }*/
+/*
 //else if practice
 //1
 const price = 4500;
@@ -603,6 +604,8 @@ if (wantTea) {
   console.log('enjoy movie');
 }
   */
+
+/*
 // same logic with operators and else if
 if (wantTea && wantBiscuit) {
   console.log('your tea and biscuit.');
@@ -752,4 +755,77 @@ const expensive = false;
 const decision1 = !expensive ? 'I will buy' : 'I do not buy';
 console.log(decision1);
 //javascript condition End
+*/
 //JavaScript Array
+//practice Array
+//1
+const numbers = [71, 72, 73, 74, 74, 75, 76, 77, 78, 79];
+console.log(numbers);
+//2
+const fruits = ['mango', 'apple', 'banana', 'orange', 'guava'];
+console.log(fruits);
+//3
+const vegetables = [
+  'potato',
+  'onion',
+  'eggplant',
+  'tomato',
+  'carrots',
+  'ladies finger',
+  'lau',
+  'cucumbers',
+  'potol',
+  'kumra',
+];
+
+const total = vegetables.length;
+console.log(total);
+//4
+const colors = [
+  'black',
+  'red',
+  'white',
+  'purple',
+  'blue',
+  'brown',
+  'pink',
+  'golden',
+];
+const totalColor = colors.length;
+console.log(totalColor);
+//index
+const number1 = [3, 5, 77, 32, 34];
+number1[4] = 100;
+console.log(number1[0]);
+console.log(number1[3]);
+const fourth = number1[4];
+console.log(fourth);
+console.log(number1[5]);
+console.log(number1);
+
+// practice index
+//1
+const freinds = ['abdullah', 'sajid', 'qayoom', 'hamza', 'ali', 'billah'];
+console.log(freinds[3]);
+//2
+const books = [
+  'bangla',
+  'math',
+  'english',
+  'chemistry',
+  'physics',
+  'biology',
+  'h.math',
+];
+console.log(books[5]);
+//3
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+num[7] = 30;
+console.log(num);
+//4
+const games = ['free fire', 'pubg', 'candy crash', 'tample run', 'coc'];
+games[2] = 'subway suffer';
+console.log(games);
+//5
+const family = ['ammu', 'abbu', 'happy', 'hafija', 'opi', 'rakib'];
+console.log(family[3]);
