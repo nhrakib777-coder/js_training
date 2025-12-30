@@ -65,7 +65,7 @@ if (age >= 18) {
   alert('You are a child.');
 }
 */
-
+/*
 //Hotel GATE PASS
 
 let roomNum = Number(prompt('please enter you room number.'));
@@ -85,3 +85,27 @@ if (roomNum <= 100) {
 } else {
   alert('invalid room number');
 }
+*/
+//project 2 The Mini ATM
+
+let balance = 10000;
+let history = [];
+let amountInput = prompt(
+  'you available balance is: ' + balance + '. how much you want to withdraw?'
+);
+let withDrawAmount = Number(amountInput);
+
+if (withDrawAmount > 0 && withDrawAmount <= balance) {
+  balance = balance - withDrawAmount;
+
+  let messege = 'withdrew $' + withDrawAmount;
+  history.push(messege);
+
+  alert('withdraw sucsessfull. your balance : ' + balance);
+} else if (withDrawAmount > balance) {
+  alert('you do not have enough money.');
+} else {
+  alert('please enter a valid number.');
+}
+
+console.log(history);
