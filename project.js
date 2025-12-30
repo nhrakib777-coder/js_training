@@ -42,6 +42,7 @@ if (age >= 18) {
   alert('you are child.');
 }
 */
+/*
 let age = Number(prompt('Age koto?'));
 
 if (age >= 18) {
@@ -62,4 +63,25 @@ if (age >= 18) {
   }
 } else {
   alert('You are a child.');
+}
+*/
+
+//Hotel GATE PASS
+
+let roomNum = Number(prompt('please enter you room number.'));
+
+if (roomNum <= 100) {
+  let hasBooked = confirm('did you you book the room?');
+  if (hasBooked) {
+    alert('welcome to grand hotel sir');
+  } else {
+    let isStaff = confirm('are you hotel staff');
+    if (isStaff) {
+      alert('welcome to your job.');
+    } else {
+      alert('you are not eligeble to enter');
+    }
+  }
+} else {
+  alert('invalid room number');
 }
