@@ -87,7 +87,7 @@ if (roomNum <= 100) {
 }
 */
 //project 2 The Mini ATM
-
+/*
 let balance = 10000;
 let history = [];
 let amountInput = prompt(
@@ -109,3 +109,48 @@ if (withDrawAmount > 0 && withDrawAmount <= balance) {
 }
 
 console.log(history);
+*/
+/*
+const movies = [
+  'action movie',
+  'comedy movie',
+  'horror movie',
+  'biography',
+  'porn',
+];
+
+let choice = Number(prompt('enter a number between 0 to 4'));
+
+if (choice >= 0 && choice <= 4) {
+  let selectthemovie = movies[choice];
+  alert('your movie: ' + selectthemovie);
+} else {
+  alert('wrong number');
+}
+*/
+// guess the number
+let secretNUm = 8;
+let guessNum = 8;
+
+if (guessNum === secretNUm) {
+  console.log('wow your so inteligent.');
+} else if (guessNum > secretNUm) {
+  console.log('onek beshi bokachoda');
+} else {
+  console.log('too low');
+}
+//now let hte computer choose only
+
+const randomNum = Math.floor(Math.random() * 10) + 1;
+
+let guess = Number(prompt('guess a number:'));
+
+if (guess < 1 || guess > 10 || isNaN(guess)) {
+  alert(`${guess} is invalid number.`);
+} else if (guess === randomNum) {
+  alert(`${guess} is your correct number`);
+} else if (guess > randomNum) {
+  alert(`${guess} is too big`);
+} else {
+  alert(`${guess} is to low`);
+}
