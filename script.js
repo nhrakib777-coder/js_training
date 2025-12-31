@@ -924,3 +924,258 @@ if (weather.includes('rain')) {
 }*/
 // End of Array
 //JavaScript Loop
+/*
+const numbers = [12, 435, 645, 32];
+for (const num of numbers) {
+  console.log(num);
+}
+const fruits = ['apple', 'orange', 'banana'];
+for (const show of fruits) {
+  console.log(show);
+}
+//Practice of for of loop
+//1
+const subject = ['bangla', 'english', 'math', 'chemistry'];
+for (const item of subject) {
+  console.log(item);
+}
+//2
+const fvrtFood = ['biriyani', 'kacchi', 'chicken', 'alu'];
+for (const food of fvrtFood) {
+  console.log(food);
+}
+const birthYear = [1968, 1971, 1994, 1997, 2000, 2007];
+for (items of birthYear) {
+  console.log(items);
+}
+//End of for loop
+//While loop
+/*
+Declare a loop variable with an initial value
+  while(loop condition){
+    Repetitive tasks
+    Change the value of the loop variable
+  }
+*/
+/*
+let num = 0;
+while (num < 5) {
+  console.log(num);
+  num = num + 1;
+}
+let school = 0;
+while (school < 5) {
+  console.log('jsei');
+  school++;
+}
+// while loop practicing
+//1
+let swear = 0;
+while (swear < 10) {
+  console.log('ami protidin 3 hours programming practice korbo');
+  swear++;
+}
+//2
+let number = 1;
+while (number <= 20) {
+  console.log(number);
+  number++;
+}
+//3
+let var1 = 50;
+while (var1 <= 100) {
+  console.log(var1);
+  var1 += 1;
+}
+//4
+let var2 = 1;
+while (var2 <= 10) {
+  console.log(var2 * 3);
+  var2++;
+}
+//5
+let var3 = 100;
+while (var3 <= 120) {
+  console.log(parseInt(var3 / 2));
+  var3 += 1;
+}
+*/
+/*
+let num = 1;
+let sum = 0;
+
+while (num <= 10) {
+  console.log(num);
+  sum = sum + num;
+  num++;
+}
+console.log(sum);
+//practice
+let var1 = 5;
+let sum1 = 0;
+while (var1 <= 15) {
+  sum1 = sum1 + var1;
+  var1++;
+}
+console.log(sum1);
+//2
+let roll = 1;
+let total = 0;
+while (roll <= 50) {
+  console.log(roll);
+  total = total + roll;
+  roll++;
+}
+console.log(total);
+//4
+let var3 = 21;
+let sum3 = 0;
+while (var3 <= 50) {
+  sum3 = var3 + sum3;
+  var3++;
+  console.log(sum3);
+}
+// for loop
+for (let var4 = 1; var4 <= 5; var4++) {
+  console.log(var4);
+}
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+for (let i = 1; i <= 20; i++) {
+  sum = sum + i;
+}
+console.log('etar amr jogfor' + sum);
+//practice of for loop
+for (let i = 31; i <= 38; i++) {
+  console.log(i);
+  sum = sum + i;
+}
+console.log(sum);
+//3
+let total = 0;
+for (let i = 25; i <= 75; i++) {
+  total = total + i;
+  console.log(total);
+}
+*/
+//odd-even loop
+/*
+for (let i = 0; i < 20; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+for (let i = 0; i < 20; i++) {
+  if (i % 2 == 1) {
+    console.log(i);
+  }
+}
+for (let i = 1; i <= 20; i++) {
+  if (i % 5 == 0) {
+    console.log(i);
+  }
+}
+
+for (let i = 1; i <= 30; i++) {
+  if (i % 3 == 0 || i % 5 == 0) {
+    console.log(i);
+  }
+}
+for (let i = 1; i <= 30; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log(i);
+  }
+}
+*/
+//practice odd-even loop
+//1
+/*
+for (let i = 20; i <= 50; i++) {
+  if (i % 7 == 0) {
+    console.log(i);
+  }
+}
+//2
+for (let i = 40; i <= 80; i++) {
+  if (i % 7 == 0 && i % 5 == 0) {
+    console.log(i);
+  }
+}
+//4
+let sum = 0;
+for (let i = 1; i < 40; i++) {
+  if (i % 13 == 0) {
+    sum = i + sum;
+  }
+}
+console.log(sum);
+for (let i = 1; i <= 50; i += 4) {
+  console.log(i);
+}
+//5
+for (let i = 0; i <= 100; i++) {
+  if (i % 6 == 0 && i % 9 == 0) {
+    console.log(i);
+  }
+}
+//
+let sum1 = 0;
+for (let i = 1; i <= 50; i++) {
+  if (i % 3 == 0 && i % 4 == 0) {
+    console.log(i);
+    sum1 = sum1 + i;
+  }
+}
+console.log(sum1);
+//end of practice
+*/
+//loop break
+for (let i = 0; i <= 15; i++) {
+  console.log(i);
+  if (i >= 7) {
+    break;
+  }
+}
+
+for (let i = 0; i <= 10; i++) {
+  if (i == 7) {
+    continue;
+  }
+  console.log(i);
+}
+for (let i = 1; i <= 30; i++) {
+  if (i % 2 == 1) {
+    continue;
+  }
+  console.log(i);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 == 0) {
+    continue;
+  }
+  console.log(i);
+}
+//JavaScript Break and Continue statement practice:
+for (let i = 1; i <= 30; i++) {
+  console.log(i);
+  if (i == 15) {
+    break;
+  }
+}
+//2
+for (let i = 1; i <= 40; i++) {
+  if (i % 7 == 0) {
+    continue;
+  }
+  console.log(i);
+}
+//6
+for (let i = 91; i <= 120; i++) {
+  console.log(i);
+  if (i % 10 == 0) {
+    break;
+  }
+}
+//End of loop practice
