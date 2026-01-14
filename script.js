@@ -1130,6 +1130,7 @@ for (let i = 1; i <= 50; i++) {
 console.log(sum1);
 //end of practice
 */
+/*
 //loop break
 for (let i = 0; i <= 15; i++) {
   console.log(i);
@@ -1178,4 +1179,175 @@ for (let i = 91; i <= 120; i++) {
     break;
   }
 }
+*/
 //End of loop practice
+//JavaScript Object
+// const student = {
+//   name: "rakib",
+//   roll: 23,
+//   age: 32,
+//   isSingle: false,
+// };
+// console.log(student);
+// const subjects = {
+//   name: "biology",
+//   teacher: "Afida",
+//   examDate: "30 dec",
+//   chapters: ["first", "fourth", "fifth", "sixth"],
+//   nextExam: {
+//     name: "final exam",
+//     marks: 100,
+//   },
+// };
+// console.log(subjects);
+// console.log();
+// const teacher = {
+//   name: "salah",
+//   subject: "english",
+//   age: 23,
+//   adress: "dhaka",
+// };
+// console.log(teacher);
+// const tree = {
+//   name: "mango",
+//   height: "172cm",
+//   age: 23,
+//   fruitsName: "mango",
+// };
+// console.log(tree);
+// const person = {
+//   name: "sundor ali",
+//   age: 25,
+//   profession: "developer",
+//   salary: 2500,
+//   married: true,
+// };
+// console.log(person.profession);
+// console.log(person["age"]);
+// const cricketer = {
+//   position: 4,
+//   specialty: "batter",
+//   age: 25,
+//   runs: 8909,
+// };
+// console.log(cricketer.position);
+// console.log(cricketer["runs"]);
+// cricketer.position = 1;
+// cricketer["runs"] = 34343;
+// console.log(cricketer["position"]);
+// console.log(cricketer.runs);
+// const college = {
+//   name: "vnc",
+//   class: ["11", "12"],
+//   events: ["science", "bijoy dibos", "21 feb"],
+//   unique: {
+//     color: "blue",
+//     reslults: {
+//       gpa: 5,
+//       merit: "top",
+//     },
+//   },
+// };
+
+// console.log(college.class);
+// console.log(college.unique.reslults.gpa);
+// console.log(college.events[2]);
+// //practice
+// const player = {
+//   name: "sakib",
+//   age: 25,
+//   sport: "cricket",
+//   team: "bangladesh",
+// };
+// console.log(player.team);
+// const laptop = {
+//   brand: "Xiaomi",
+//   price: 50000,
+//   handDisc: "512gb",
+//   ram: "16gb",
+//   screenSize: '14.6"',
+// };
+// console.log(laptop.screenSize);
+// const fvrtPlace = {
+//   name: "Cox's Bazar",
+//   distance: "400km",
+//   popularity: "high",
+// };
+// console.log(fvrtPlace["popularity"]);
+// const phone = {
+//   brand: "samsung",
+//   color: "black",
+//   price: 5000,
+// };
+// console.log(phone["price"]);
+// const univarsity = {
+//   name: "ndc",
+//   established: 1949,
+//   groups: ["science", "commerce", "Arts"],
+// };
+// console.log(univarsity.groups[1]);
+// const family = {
+//   father: {
+//     name: "Md Haresh Fakir",
+//     age: 54,
+//     profession: "police officer",
+//   },
+//   mother: {
+//     name: "Hashia Akter",
+//     age: 50,
+//     profession: "teacher",
+//   },
+// };
+// console.log(family.father.age);
+// console.log(family.mother.age);
+// console.log(family.father.age + family.mother.age);
+// let sum = family.father.age + family.mother.age;
+// console.log(sum);
+
+// // practice object
+// const bike = {
+//   brandName: "Yamaha",
+//   tier: 2,
+//   color: "black",
+//   topSpeed: "155km/h",
+//   price: "150k tk",
+// };
+// console.log(bike);
+// boject keys
+
+const computer = {
+  brand: "lenovo",
+  price: 35000,
+  processor: "intel",
+  ssd: "512gb",
+};
+const keys = Object.keys(computer);
+console.log(keys);
+const values = Object.values(computer);
+console.log(values);
+const hasName = keys.includes("brand");
+console.log(hasName);
+// if ("name" in computer) {
+//   console.log("brand exist");
+// } else {
+//   console.log("no brand. no spam.");
+// }
+
+if (computer.hasOwnProperty("brand")) {
+  console.log("brand niye boroloki dekhai");
+} else {
+  console.log("brand chara jibon");
+}
+if (computer.brand === "lenovo") {
+  console.log("lenovo manei brand");
+} else {
+  console.log("apple chalai gorib bole");
+}
+// object entries
+const person = {
+  name: "alice",
+  age: 25,
+  country: "bangladesh"
+};
+const entries = Object.entries(person);
+console.log(entries);
